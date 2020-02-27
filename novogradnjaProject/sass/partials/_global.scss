@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+
+body,html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: $primary-font;
+}
+h1, h2, h3, h4, p {
+  font-family: $primary-font;
+  margin: 0;
+}
+
+a, a:hover, a:visited, a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+ul,ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.green-btn {
+  cursor:pointer;
+  background-color: $button-green ;
+  color: #fff;
+  border-radius: 30px;
+  border: 1.5px solid transparent;
+  transition: ease-in-out .3s;
+   &:hover {
+     background-color: transparent;
+     border-color: $button-green;
+     color: $button-green;
+   }
+}
+.dark-btn {
+  cursor:pointer;
+  background-color: $primary-bg-color ;
+  color: #fff;
+  border-radius: 30px;
+  border: 1.5px solid transparent;
+  transition: ease-in-out .3s;
+   &:hover {
+     background-color: transparent;
+     border-color: $primary-bg-color;
+   }
+}
+.green-btn-transparent {
+  cursor:pointer;
+  background-color: transparent ;
+  color: #fff;
+  border-radius: 30px;
+  border: 1.5px solid $button-green;
+  transition: ease-in-out .3s;
+    &:hover {
+      background-color: $button-green;
+      color: $button-green;
+    }
+}
+.orange-btn {
+  cursor:pointer;
+  background-color: $orange ;
+  color: #fff;
+  border-radius: 30px;
+  border: 1.5px solid transparent;
+  transition: ease-in-out .3s;
+   &:hover {
+     background-color: transparent;
+     border-color: $orange;
+     color: $orange;
+   }
+}
+.orange-dark-btn {
+  cursor:pointer;
+  background-color: $orange-dark ;
+  color: #fff;
+  border-radius: 30px;
+  border: 1.5px solid transparent;
+  transition: ease-in-out .3s;
+   &:hover {
+     background-color: transparent;
+     border-color: $orange-dark;
+     color: $orange-dark;
+   }
+}
+
+@media (min-width: 992px)  {
+  .container {
+    max-width: 100%;
+  }
+}

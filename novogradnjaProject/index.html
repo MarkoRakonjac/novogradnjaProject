@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Test</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+	<header class="intro">
+		<nav class="intro__nav navbar  navbar-expand-lg">
+			<a class="intro__logo navbar-brand" href="#"> <img src="img/logo.png" alt="logo"></a>
+			<button class="intro__nav-btn navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content"
+				aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbar-content">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Why Novogradnja</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">FAQ</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Blog</a>
+					</li>
+				</ul>
+				<div class="nav-btn">
+					<a class="green-btn-transparent" href="#">List your property</a>
+				</div>
+
+				<div class="nav-user">
+					<a class="nav-link" href="#">Log in <span><img src="img/loginIcon.svg" alt="login-icon"></span></a>
+					<div class="nav-link dropdown">
+						<a class=" dropdown-toggle" href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+							aria-expanded="false">
+							<img src="img/engIcon.svg" alt="lang-icon">
+						</a>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item" href="#">Srb</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<div id="slider" class="intro__slider carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#slider" data-slide-to="0" class="active"></li>
+				<li data-target="#slider" data-slide-to="1"></li>
+				<li data-target="#slider" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item item-1 active">
+				</div>
+				<div class="carousel-item item-2">
+				</div>
+				<div class="carousel-item item-3">
+				</div>
+			</div>
+			<a class="carousel-control-prev d-none d-lg-flex" href="#slider" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next d-none d-lg-flex" href="#slider" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+
+		<div class="intro__content d-flex flex-column align-items-center">
+			<h1 class="intro__title">Explore beauties of <br> Montenegro - Bay of Kotor</h1>
+			<form>
+				<div class="intro__form form-group location-input">
+					<input type="text" class="form-control" placeholder="Location or Project name">
+				</div>
+				<div class="intro__form form-group property-input">
+					<select class="form-control">
+						<option value="" disabled selected>Type of property</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+					</select>
+				</div>
+				<button type="submit" class="btn search-btn"> <span><img src="img/searchIcon.svg"
+							alt="search icon">Search</span> </button>
+			</form>
+		</div>
+	</header>
+
+
+	<main>
+		<section class="about-us">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 offset-xl-2 col-xl-8">
+						<div class="about-us__content">
+							<h2>Novogradnja <br> Secure. Innovative. <br class="d-lg-none"> International.</h2>
+							<p>You are developing a Building, a Resort, a Condo Hotel Whatever the type of properties are included in
+								your
+								development Located in Croatia, in Montenegro, in Serbia It Has Its Place Here! You are developing a
+								Building,
+								a Resort, a Condo Hotel Whatever the type of properties are included in your development Located in
+								Croatia,
+								in Montenegro, in Serbia It Has Its Place Here!
+							</p>
+							<a href="#" class="btn green-btn">More about Novogranja</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="services">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-lg-5 offset-lg-1 px-0">
+						<div class="services__property">
+							<h2>Have a property that you would like to advertise?</h2>
+							<p>We have a quick and easy solution for you.</p>
+							<span>You are developing a Building, a Resort, a Condo Hotel Whatever the type of properties are included
+								in your
+								development Located in Croatia, in Montenegro, in Serbia It Has Its Place Here!</span>
+							<a href="#" class="btn dark-btn">List your property NOW!</a>
+						</div>
+					</div>
+					<div class="col-sm-12 col-lg-5">
+						<div class="services__img">
+							<img src="img/servicesImg.png" alt="services-icon">
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<div class="footer__main">
+			<div class="footer__item order-1 order-lg-1">
+				<div class="footer__links">
+					<a href="#">Why Novogradnja</a>
+					<a href="pricing.html">Pricing</a>
+					<a href="#">Contact us</a>
+				</div>
+			</div>
+			<div class="footer__item order-2 order-lg-2">
+				<div class="footer__links">
+					<a href="#">Blog</a>
+					<a href="#">FAQ</a>
+				</div>
+			</div>
+			<div class="footer__item order-4 order-lg-3">
+				<div class="footer_info">
+					<h3>Montenegro Novogradnja</h3>
+					<p><span><img src="img/pointIcon.svg" alt="point-icon"></span>Njegoseva 10, Tivat</p>
+					<ul>
+						<li>Mon - Fri: 10:00 - 18:00</li>
+						<li>Sat: 10:00 - 16:00</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer__item order-3 order-lg-4 d-lg-flex">
+				<div class="footer__property">
+					<p class="d-none d-lg-block">Have a property that you, <br> would like to advertise?</p>
+					<a href="#" class="btn green-btn-transparent">List your property</a>
+				</div>
+				<div class="social-links">
+					<a href="" class="icon facebook-icon"></a>
+					<a href="" class="icon instagram-icon"></a>
+					<a href="" class="icon twitter-icon"></a>
+					<a href="" class="icon linkedin-icon"></a>
+				</div>
+			</div>
+		</div>
+		<div class="footer__bottom">
+			<div class="footer__bottom-left">
+				<a href="#">General Terms and Conditions </a>
+				<a href="#">Privacy policy</a>
+			</div>
+			<span>All right reserved Novogradnja</span>
+		</div>
+	</footer>
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

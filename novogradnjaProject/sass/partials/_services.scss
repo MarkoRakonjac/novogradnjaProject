@@ -1,0 +1,115 @@
+.services {
+  padding: 70px 0;
+    .services__property {
+      padding: 0 26px;
+      h2 {
+        font-size: 18px;
+        color:#414042;
+        line-height: 22px;
+        margin-bottom: 20px;
+      }
+       p {
+         color: #6B696C;
+         font-size: 14px;
+         line-height: 21px;
+         margin-bottom: 11px;
+       }
+       span  {
+        font-family: $font-open-sans;
+        line-height: 22px;
+        margin-bottom: 14px;
+        font-weight: 300;
+        font-size: 14px;
+        display: block;
+        margin-bottom: 33px;
+       }
+       .btn {
+        display: block;
+        width: 270px;
+        height: 60px;
+        text-align: center;
+        line-height: 56px;
+        font-size: 18px;
+        padding: 0;
+        margin-bottom: 36px;
+        font-family: $primary-font;
+       }
+    }
+    .services__img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+        img {
+          width: 292px;
+        }
+    }
+}
+
+@media (min-width: 576px) {
+    .services {
+      .services__property {
+        h2 {
+          font-size: 24px;
+          line-height: normal;
+        }
+        p {
+          font-size: 18px;
+        }
+        span {
+          font-size: 16px;
+          line-height: normal;
+        }
+      }
+    }
+}
+@media (min-width: 768px)  {
+  .services {
+    .services__img {
+      img {
+        width: 300px;
+      }
+  }
+  }
+}
+@media (min-width: 992px) {
+  .services {
+    padding-bottom: 59px;
+    .services__property {
+      padding: 0 55px 0 3px;
+      h2 {
+        font-size: 36px;
+        line-height: normal;
+        margin-bottom: 25px;
+      }
+      p {
+        font-size: 20px;
+        margin-bottom: 32px;
+      }
+      span {
+        font-size: 18px;
+        line-height: 27px;
+      }
+      .btn {
+        width: 290px;
+      }  
+    }
+    .services__img {
+      img {
+        width: 400px;
+  }
+  }
+}
+
+@media (min-width: 1200px)  {
+  .services {
+    .services__img {
+      img {
+        width: auto;
+        position: relative;
+        top: -30px;
+        left: 30px;
+      }
+      }
+  }
+  }
+}

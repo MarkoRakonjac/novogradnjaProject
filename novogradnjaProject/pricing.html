@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Test</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="dist/main.min.css">
+</head>
+
+<body>
+  <header class="intro pricing-intro">
+    <nav class="intro__nav  navbar  navbar-expand-lg">
+      <a class="intro__logo navbar-brand" href="#"> <img src="img/logo.png" alt="logo"></a>
+      <button class="intro__nav-btn navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content"
+        aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbar-content">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Why Novogradnja</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+        </ul>
+        <div class="nav-btn">
+          <a class="green-btn-transparent" href="#">List your property</a>
+        </div>
+
+        <div class="nav-user">
+          <a class="nav-link" href="#"><img src="img/heartIcon.svg" alt="like-icon"><span>13</span></a>
+          <a class="nav-link" href="#"><img src="img/avatarIcon.svg" alt="user-avatar-icon"></a>
+          <div class="nav-link dropdown">
+            <a href="" class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              <img src="img/engIcon.svg" alt="lang-icon">
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Srb</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="intro-pricing__content d-flex flex-column align-items-center">
+      <div class="intro-pricing__title">
+        <h1>Choose your plan </h1>
+        <span class="d-inline-block"><img src="img/pricingIntro.png" class="img-fluid" alt="pricing-intro-img"></span>
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br> incididunt ut labore et
+        dolore
+        magna aliqua.</p>
+    </div>
+  </header>
+
+
+  <main>
+    <div class="container">
+      <section class="pricing-table">
+        <div class="pricing-table__item">
+          <div class="pricing-table__header">
+            <div class="table-header-head">
+              <div class="d-flex flex-md-column align-items-center">
+                <p class="table-title"> Bill monthly <span>/ Bill yearly</span></p>
+                <div class="switch-btn">
+                  <input type="checkbox" class="checkbox">
+                  <div class="knobs"></div>
+                </div>
+              </div>
+              <span class="price"> Save 35%</span>
+            </div>
+            <div class="btn green-btn d-none d-md-block invisible">space</div>
+          </div>
+          <div class="pricing-table__body ">
+            <span class="table-item">Unit</span>
+            <span class="table-item">Custom Logo</span>
+            <span class="table-item">Photos</span>
+            <span class="table-item">Video</span>
+            <span class="table-item">Support Email</span>
+            <span class="table-item">Advanced</span>
+          </div>
+          <div class="pricing-table__footer">
+            <span class="price invisible">.</span>
+            <div class="btn invisible">.</div>
+          </div>
+        </div>
+
+        <div class="pricing-table__item">
+          <div class="pricing-table__header">
+            <div class="table-header-head">
+              <p class="table-title"> Single property</p>
+              <p class="table-subtitle">1 Property</p>
+              <span class="old-price"> 350 &euro;</span>
+              <span class="price">175 &euro;</span>
+            </div>
+            <div class="btn green-btn  d-none d-md-block">Buy / Register</div>
+          </div>
+          <div class="pricing-table__body">
+            <span class="table-item d-flex d-md-block justify-content-between"> <span
+                class="d-inline-block d-md-none">Unit</span> 1</span>
+            <span class="table-item d-flex d-md-block justify-content-between"> <span
+                class="d-inline-block d-md-none">Custom Logo</span><img src="img/chekedIcon.svg"
+                alt="checked-icon"></span>
+            <span class="table-item d-flex d-md-block justify-content-between"> <span
+                class="d-inline-block d-md-none">Photos</span><img src="img/chekedIcon.svg" alt="checked-icon"></span>
+            <span class="table-item d-flex d-md-block justify-content-between"> <span
+                class="d-inline-block d-md-none">Video</span><img src="img/chekedIcon.svg" alt="checked-icon"></span>
+            <span class="table-item d-flex d-md-block justify-content-between"> <span
+                class="d-inline-block d-md-none">Support Email</span><img src="img/xIcon.svg" alt="checked-icon"></span>
+            <span class="table-item d-flex d-md-block justify-content-between"> <span
+                class="d-inline-block d-md-none">Advanced</span><img src="img/xIcon.svg" alt="checked-icon"></span>
+          </div>
+          <div class="pricing-table__footer">
+            <span class="price d-none d-md-block">175 &euro;</span>
+            <div class="btn green-btn">Buy / Register</div>
+          </div>
+        </div>
+
+        <div class="pricing-table__item">
+          <div class="pricing-table__header">
+            <div class="table-header-head">
+              <p class="table-title"> New development</p>
+              <p class="table-subtitle">> 30 Units</p>
+              <span class="old-price"> 708 &euro;</span>
+              <span class="price">545 &euro;</span>
+            </div>
+            <div class="btn orange-btn  d-none d-md-block">Buy / Register</div>
+          </div>
+          <div class="pricing-table__body">
+            <span class="table-item d-flex d-md-block  justify-content-between"> <span
+                class="d-inline-block d-md-none">Unit</span>> 30</span>
+            <span class="table-item d-flex d-md-block justify-content-between"> <span
+                class="d-inline-block d-md-none">Custom Logo</span><img src="img/chekedIcon.svg"
+                alt="checked-icon"></span>
+            <span class="table-item d-flex d-md-block justify-content-between"> <span
+                class="d-inline-block d-md-none">Photos</span><img src="img/chekedIcon.svg" alt="checked-icon"></span>
+            <span class="table-item d-flex d-md-block justify-content-between"> <span
+                class="d-inline-block d-md-none">Video</span><img src="img/chekedIcon.svg" alt="checked-icon"></span>
+            <span class="table-item d-flex d-md-block justify-content-between"> <span
+                class="d-inline-block d-md-none">Support Email</span><img src="img/chekedIcon.svg"
+                alt="checked-icon"></span>
+            <span class="table-item d-flex d-md-block justify-content-between"> <span
+                class="d-inline-block d-md-none">Advanced</span><img src="img/xIcon.svg" alt="checked-icon"></span>
+          </div>
+          <div class="pricing-table__footer">
+            <span class="price d-none d-md-block">545 &euro;</span>
+            <div class="btn orange-btn">Buy / Register</div>
+          </div>
+        </div>
+
+        <div class="pricing-table__item">
+          <div class="pricing-table__header">
+            <div class="table-header-head">
+              <p class="table-title"> New development</p>
+              <p class="table-subtitle">Unlimited</p>
+              <span class="old-price"> 1079 &euro;</span>
+              <span class="price">830 &euro;</span>
+            </div>
+            <div class="btn orange-dark-btn  d-none d-md-block">Buy / Register</div>
+          </div>
+          <div class="pricing-table__body">
+            <span class="table-item d-flex d-md-block justify-content-between"> <span
+                class="d-inline-block d-md-none">Unit</span>Unlimited</span>
+            <span class="table-item d-flex d-md-block justify-content-between"> <span
+                class="d-inline-block d-md-none">Custom Logo</span><img src="img/chekedIcon.svg"
+                alt="checked-icon"></span>
+            <span class="table-item d-flex d-md-block justify-content-between"> <span
+                class="d-inline-block d-md-none">Photos</span><img src="img/chekedIcon.svg" alt="checked-icon"></span>
+            <span class="table-item d-flex d-md-block justify-content-between"> <span
+                class="d-inline-block d-md-none">Video</span><img src="img/chekedIcon.svg" alt="checked-icon"></span>
+            <span class="table-item d-flex d-md-block justify-content-between"> <span
+                class="d-inline-block d-md-none">Support Email</span><img src="img/chekedIcon.svg"
+                alt="checked-icon"></span>
+            <span class="table-item d-flex d-md-block justify-content-between"> <span
+                class="d-inline-block d-md-none">Advanced</span><img src="img/chekedIcon.svg" alt="checked-icon"></span>
+          </div>
+          <div class="pricing-table__footer">
+            <span class="price d-none d-md-block">830 &euro;</span>
+            <div class="btn orange-dark-btn">Buy / Register</div>
+          </div>
+        </div>
+      </section>
+      <section class="how-it-works">
+        <div class="row">
+          <div class="col-lg-7 offset-lg-1">
+            <h2>See how it works Listing Packages </h2>
+            <p>Your New development may have a numerous of units for sale or even under your development, you propose
+              different type of properties (i). Here you will have the ideal package giving you the freedom to include
+              unlimited units whatever the status (i) of your development is. This extended option will enable you to
+              load as many units as you deem necessary, whatever the number of properties registered. </p>
+          </div>
+          <div class="col-lg-4">
+            <a href="#" class="btn">Watch our video to
+              see how it works</a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__main">
+      <div class="footer__item order-1 order-lg-1">
+        <div class="footer__links">
+          <a href="#">Why Novogradnja</a>
+          <a href="#">Pricing</a>
+          <a href="#">Contact us</a>
+        </div>
+      </div>
+      <div class="footer__item order-2 order-lg-2">
+        <div class="footer__links">
+          <a href="#">Blog</a>
+          <a href="#">FAQ</a>
+        </div>
+      </div>
+      <div class="footer__item order-4 order-lg-3">
+        <div class="footer_info">
+          <h3>Montenegro Novogradnja</h3>
+          <p><span><img src="img/pointIcon.svg" alt="point-icon"></span>Njegoseva 10, Tivat</p>
+          <ul>
+            <li>Mon - Fri: 10:00 - 18:00</li>
+            <li>Sat: 10:00 - 16:00</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__item order-3 order-lg-4 d-lg-flex">
+        <div class="footer__property">
+          <p class="d-none d-lg-block">Have a property that you, <br> would like to advertise?</p>
+          <a href="#" class="btn green-btn-transparent">List your property</a>
+        </div>
+        <div class="social-links">
+          <a href="" class="icon facebook-icon"></a>
+          <a href="" class="icon instagram-icon"></a>
+          <a href="" class="icon twitter-icon"></a>
+          <a href="" class="icon linkedin-icon"></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="footer__bottom-left">
+        <a href="#">General Terms and Conditions </a>
+        <a href="#">Privacy policy</a>
+      </div>
+      <span>All right reserved Novogradnja</span>
+    </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

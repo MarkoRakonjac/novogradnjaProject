@@ -1,0 +1,78 @@
+.about-us {
+  background: url(../img/aboutUsBg.jpg) no-repeat  center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+    &:before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(24, 37, 69, 0.89);
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+    .about-us__content {
+      // background: rgba(24, 37, 69, 0.89);
+      color: #fff;
+      padding: 78px 10px;
+        h2 {
+          font-size: 18px;
+          line-height: 22px;
+          margin-bottom: 18px;
+        }
+        p {
+          font-size: 14px;
+          line-height: 21px;
+          margin-bottom: 33px;
+          font-weight: 300;
+        }
+        .btn {
+          display: block;
+          width: 270px;
+          height: 56px;
+          text-align: center;
+          line-height: 52px;
+          font-size: 18px;
+          padding: 0;
+          font-family: $primary-font;
+          font-weight: 300;
+          letter-spacing: .5px;
+        }
+    }
+}
+
+
+@media (min-width: 576px) {
+  .about-us {
+    .about-us__content {
+      h2 {
+        font-size: 24px;
+        line-height: normal;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .about-us {
+    .about-us__content {
+        padding: 112px 16px 206px 36px;
+      h2 {
+        font-size: 38px;
+        line-height: normal;
+        margin-bottom: 30px;
+      }
+      p {
+        font-size: 22px;
+        line-height: 32px;
+        margin-bottom: 45px;
+      }
+      .btn {
+        width: 290px;
+        height: 59px;
+      }
+    }
+  }
+}
